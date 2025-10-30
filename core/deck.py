@@ -1,6 +1,6 @@
 import random
 def build_standard_deck() -> list[dict]:
-    cards={"2":2,"3":3,"4":4,"5":5,"6":6,"7":7,"8":8,"9":9,"10":10,"J":10,"Q":10,"K":10,"A":1}
+    cards=["2","3","4","5","6","7","8","9","10","J","Q","K","A"]
     suite=["H","C","D","S"]
     full_cards=[]
     for i in cards:
