@@ -39,3 +39,4 @@ def shuffle_by_suit(deck: list[dict], swaps: int = 5000) -> list[dict]:
                 continue
             continue
     return deck
+print(build_standard_deck()[1])
